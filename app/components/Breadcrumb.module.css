@@ -1,0 +1,41 @@
+.breadcrumb {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  padding: 16px 0;
+  font-size: 13px;
+  color: var(--color-text-secondary);
+}
+
+.back {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  color: var(--color-text-secondary);
+  font-weight: 500;
+}
+
+.back:hover {
+  color: var(--color-accent);
+}
+
+.divider {
+  width: 1px;
+  height: 14px;
+  background: var(--color-border-strong);
+}
+
+.trail {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.id {
+  font-family: var(--font-mono);
+  color: var(--color-text-primary);
+}
+
+.slash {
+  color: var(--color-text-muted);
+}
